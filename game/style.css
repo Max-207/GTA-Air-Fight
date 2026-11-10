@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    border: 50px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#upperBorder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#userDashboard{
+    position: absolute;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#restartButton{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#restartIMG{
+    position: absolute;
+    border: none;
+}
+
+#restartButton:hover{
+    cursor: pointer;
+}
